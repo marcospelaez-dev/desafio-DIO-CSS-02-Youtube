@@ -34,7 +34,7 @@
 /* header */
 
 /* header box */
-.caixa {
+header {
     display: flex;
     padding: 6px;
     justify-content: space-between;
@@ -74,4 +74,118 @@
 .w24 {
     width: 24px;
     height: 24px;
+}
+
+/* main */
+
+main {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 85px;
+}
+
+.video {
+    flex-grow: 3;
+}
+
+.sidebar {
+    width: 100%;
+    flex-grow: 2;
+    padding-left: 40px;
+}
+
+.thumb-text {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.sidebar img {
+    width: 160px;
+    height: 90px;
+}
+
+.sidebar h3 {
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.sidebar p {
+    margin-top: 5px;
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+.video-display iframe {
+    width: 957px;
+    height: 537px;
+}
+
+.video-description h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sub-title {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-title button {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 25px;
+    background-color: #CC0000;
+    color: #ffffff;
+    border: none;
+}
+
+.dio-text {
+    display: flex;
+    align-items: center;
+}
+
+.dio-text-description h5 {
+    font-weight: 600;
+}
+
+.dio-text-description p {
+    font-size: 14px;
+}
+
+.dio-text-description h5, .dio-text-description p {
+    margin-left: 10px;
+}
+
+.like, .nolike, .share, .download {
+    display: flex;
+    align-items: center;
+}
+
+.like p, .nolike p, .share p, .download p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.view-description {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text-publicity {
+    margin-top: 30px;
+}
+.text-publicity ul {
+    margin-top: 10px;
+}
+
+.text-publicity p, .text-publicity ul li {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+ul li {
+    margin-left: 30px;
 }
